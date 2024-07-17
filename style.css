@@ -1,0 +1,59 @@
+/* css selectors */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height:100%;
+}
+body{
+    background: rgb(red, green, blue);
+    background: linear-gradient(
+        90deg,
+        rgba(255,132,100,1) 1%,
+        rgba(253,105,165,1) 100%
+    );
+}
+.container{
+    height:90vh;
+    width:90vw;
+
+}
+.box{
+    background: #fff;
+    padding:25px;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;}
+.box > h1{
+    margin-bottom: 30px;
+}
+.btn{
+    font-size: 30px;
+    font-weight:bolder;
+    border-radius: 50px;
+    color:darkslategray;
+    height:50px;
+    width:100px;
+    margin:0 10px;
+    cursor:pointer;
+}
+.heading {
+    height:10vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+button#btn-plus{
+    background-color:mediumvioletred;
+}
+button#btn-minus{
+    background-color:mediumvioletred;
+button#btn-reset{
+    background-color:fuchsia;
+}
